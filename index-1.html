@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shafikul Enterprise</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#f5f5f5;color:#222}
+header{background:#111;color:white;padding:20px;text-align:center}
+.container{max-width:900px;margin:auto;padding:18px}
+.card{background:white;border-radius:14px;padding:15px;box-shadow:0 2px 10px #ddd;max-width:300px}
+.card img{width:100%;height:250px;object-fit:contain;border-radius:10px;background:#fff}
+.price{font-size:22px;font-weight:bold;margin:8px 0}
+.offer{color:#d00;font-weight:bold}
+button{background:#111;color:white;border:0;padding:12px 18px;border-radius:8px;font-size:16px}
+.details{display:none;margin-top:10px;padding:10px;background:#f1f1f1;border-radius:8px;line-height:1.6}
+</style>
+</head>
+<body>
+<header>
+<h1>🛍️ Shafikul Enterprise</h1>
+<p>আমাদের পণ্য</p>
+</header>
+
+<div class="container">
+<div class="card">
+<img src="https://ula.blr1.cdn.digitaloceanspaces.com/ula/images/variant/1417/Rin_Advanced_Detergent_Powder_1kg.webp" alt="Rin Powder 1kg">
+<h2>Rin Powder 1kg</h2>
+<div class="offer">অফার প্রাইস</div>
+<div class="price">৳160</div>
+<button onclick="showDetails()">বিস্তারিত দেখুন</button>
+<div id="details" class="details">
+<strong>পণ্যের বিবরণ:</strong><br>
+Rin Advanced Detergent Powder — 1kg<br>
+ওজন: ১ কেজি<br>
+অফার মূল্য: ৳160<br>
+কাপড় পরিষ্কারের জন্য ব্যবহারযোগ্য ডিটারজেন্ট পাউডার।
+</div>
+</div>
+</div>
+
+<script>
+function showDetails(){
+ const d=document.getElementById("details");
+ d.style.display=d.style.display==="block"?"none":"block";
+}
+</script>
+</body>
+</html>
