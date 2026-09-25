@@ -1,2 +1,1 @@
-# shafikul-enterprise
-Messars Shafikul Enterprise Online Store
+rin 1kg offer price 160
